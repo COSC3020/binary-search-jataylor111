@@ -13,7 +13,7 @@ function binarySearch(list, element) {
         }
         //I realized that I was comparing middle and not the list value at middle
         if (list[middle] == element) {
-            return middle;
+            return 0;
         }
     }
     return -1;
