@@ -11,7 +11,8 @@ function binarySearch(list, element) {
         if (list[middle] > element) {
             end = middle - 1;
         }
-        if (middle == element) {
+        //I realized that I was comparing middle and not the list value at middle
+        if (list[middle] == element) {
             return middle;
         }
     }
